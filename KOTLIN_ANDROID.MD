@@ -14,7 +14,7 @@ tel:933823779
 ---
 
 ## Material
-- Comutador Windows/Mac/Linux
+- Computador Windows/Mac/Linux
 - Android Studio
 - Git
 - Slack
@@ -22,12 +22,12 @@ tel:933823779
 ---
 
 # Avaliação
-### Avaliação continua
-- Aquisição de competências verificadas em contexto de aula, atravès de desenvolvimento pequenos projectos, até término das aulas em dezembro. 
+### Avaliação contínua
+- Aquisição de competências verificadas em contexto de aula, através de desenvolvimento de pequenos projectos, até término das aulas em dezembro. 
 
 ### Trabalho de grupo
 - Especificação - meados de novembro
-- Defesa - Na ultima aula de janeiro
+- Defesa - Na última aula de janeiro
 ---
 
 # Avaliação
@@ -35,14 +35,14 @@ tel:933823779
 ### Exame
 - Exame teórico sem consulta e sem recurso a computador
 - Defesa do trabalho de grupo ou outro trabalho a combinar
-(caso não seja possivel defender o trabalho de grupo)
+(caso não seja possível defender o trabalho de grupo)
 ### Nota Final
-- Avaliação continua: NF = AC*50% + TG*50%
+- Avaliação contínua: NF = AC*50% + TG*50%
 - Exame: NF = EXAME*50% + TG*50%
 
 
 ---
-# Aquisição de competencias
+# Aquisição de competências
 
 ```
 Composable |  Funcional  | Lists | Navigation | REST  | Android  | Gameloop	| Firebase |    Clean 
@@ -57,13 +57,13 @@ Composable |  Funcional  | Lists | Navigation | REST  | Android  | Gameloop	| Fi
 - Linguagem de programação Kotlin, conceitos fundamentais e comparação com outras linguagens de programação.
 - Conceitos fundamentais sobre dispositivos de computação móvel SDKs e Frameworks;
 - Desenvolvimento de Aplicações Móveis
-- Compreender o LifeCycle das aplicações e componente do Android
+- Compreender o LifeCycle das aplicações e componentes do Android
 - Desenvolvimento de motor de jogo(EDJD)
 
 ---
 
 ## Conteúdo
-- Comunicação Web seguindo a arquitecta de API REST.(LESI)
+- Comunicação Web seguindo a arquitectura de API REST.(LESI)
 - Armazenamento de informação estruturada e não estruturada.
 - Compreender o padrão de arquitetura de software Model-view-view-Model(MVVM);
 - Compreender Threads e sincronização.
@@ -92,12 +92,12 @@ fun main(args: Array<String>) {
 ```
 ---
 
-# Variable declarion
+# Variable declaration
 ```kotlin
 var result : Int
-//Declaração explicita
+//Declaração explícita
 var result = 0
-//Declaração implicita
+//Declaração implícita
 val a: Int = 1  // immediate assignment
 val b = 2       // `Int` type is inferred
 val c: Int      // Type required when no initializer is provided
@@ -646,9 +646,9 @@ val translationMapPT = mapOf(
     "Good Morning" to "Bom dia", 
     "Good bye" to "Adeus")
 val translationMapES = mapOf(
-    "hello" to "ola", 
-    "Good Morning" to "Buenos Dias", 
-    "Good bye" to "Asta lá vista")
+    "hello" to "hola", 
+    "Good Morning" to "Buenos días", 
+    "Good bye" to "Hasta la vista")
 
 println(translationMapPT["Good bye"])
 println(translationMapES["Good bye"])
@@ -966,7 +966,7 @@ class SomeClass {
 ```kotlin
 class Car {
 
-    // propreties
+    // properties
     var velocity : Float = 0f
     var wheelsNumber : Int = 0
     var color : Color = Color.BLUE
@@ -978,7 +978,7 @@ class Car {
         this.color = color
     }
 
-    // functionality or metods
+    // functionality or methods
     fun accelerate  () { velocity += 5 }
     fun brake       () { velocity -= 10 }
     fun turnOn      () { isMotorRunning = true }
@@ -1127,12 +1127,12 @@ abstract class Vehicle {
 
 ---
 # abstract
-You can use abstract to declare a class if some method is abstract or it inherit from an abstract class
-An abstract class cannot be instantiated (you cannot create objects of an abstract class). However, you can inherit subclasses from can them.
+You can use abstract to declare a class if some method is abstract or it inherits from an abstract class
+An abstract class cannot be instantiated (you cannot create objects of an abstract class). However, you can inherit subclasses from them.
 
 ---
 # override, open
-You can over a function if its declared as abstract or open in the inherited class
+You can override a function if it's declared as abstract or open in the parent class
 
 ---
 
@@ -1189,7 +1189,7 @@ for (vehicle in vehicles){
 ---
 
 # Interface
-It's like a class with signature method only
+It's like a class with only method signatures
 ```kotlin
 interface Wheels {
     fun checkNumberOfWheels ()
@@ -1422,11 +1422,11 @@ Concepts:
 
 ---
 # Applications
-- Written in Java (it’s possible to write native code – will not - cover that here)
-- Good separation (and corresponding security) from other - applications:
+- Written in Java (it’s possible to write native code – will not cover that here)
+- Good separation (and corresponding security) from other applications:
 -- Each application runs in its own process
 -- Each process has its own separate VM
--- Each application is assigned a unique Linux user ID – by default - files of that application are only visible to that application - (can be explicitly exported)
+-- Each application is assigned a unique Linux user ID – by default files of that application are only visible to that application (can be explicitly exported)
 
 ---
 # Application Components
@@ -1457,7 +1457,7 @@ Examples
 Network Downloads
 Playing Music
 TCP/UDP Server
-You can bind to a an existing service and control its operation
+You can bind to an existing service and control its operation
 
 ---
 
@@ -2846,7 +2846,7 @@ fun MyBottomAppBar(navController: NavController) {
         BottomNavigationItem("Home", Icons.Filled.Home, Icons.Outlined.Home, Screen.Home),
         BottomNavigationItem("Technology", Icons.Filled.DateRange, Icons.Outlined.DateRange, Screen.Technology),
         BottomNavigationItem("Sports", Icons.Filled.Settings, Icons.Outlined.Settings, Screen.Sports),
-        BottomNavigationItem("BookMark", Icons.Filled.FavoriteBorder, Icons.Outlined.FavoriteBorder, Screen.ReadLater),
+        BottomNavigationItem("Bookmark", Icons.Filled.FavoriteBorder, Icons.Outlined.FavoriteBorder, Screen.ReadLater),
     )
 
     BottomAppBar {
@@ -3827,7 +3827,7 @@ class CartRepository(private val db: FirebaseFirestore) {
 Criar um novo carrinho:
 
 ```kotlin
-fun creatCart(cart: Cart): Flow<ResultWrapper<Unit>> = flow {
+fun createCart(cart: Cart): Flow<ResultWrapper<Unit>> = flow {
     emit(ResultWrapper.Loading())
 
     db.collection("carts")
@@ -3914,7 +3914,7 @@ fun checkItem(product: Product, checked: Boolean) {
   │ HomeView │ ◄──────────  ┌──────────────┐
   └──────────┘              │  Firestore   │
        │                    │  collection  │
-       │ creatCart          │  "carts"     │
+       │ createCart          │  "carts"     │
        └──────────────────► └──────┬───────┘
                                   │
   ┌────────────┐  snapshotListener ▼
@@ -4068,7 +4068,7 @@ class CartRepository @Inject constructor(
         }
     }.flowOn(Dispatchers.IO)
 
-    fun creatCart(cart: Cart): Flow<ResultWrapper<Unit>> = flow { /* ... */ }
+    fun createCart(cart: Cart): Flow<ResultWrapper<Unit>> = flow { /* ... */ }
 }
 ```
 
@@ -4116,9 +4116,9 @@ class HomeViewModel @Inject constructor(
             .launchIn(viewModelScope)
     }
 
-    fun creatCart() {
+    fun createCart() {
         val cart = Cart(name = "New cart ...", owners = listOf(uid))
-        cartRepository.creatCart(cart).onEach { /* when(result) */ }
+        cartRepository.createCart(cart).onEach { /* when(result) */ }
             .launchIn(viewModelScope)
     }
 }
