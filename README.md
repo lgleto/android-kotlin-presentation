@@ -35,6 +35,13 @@ scoop install marp
  marp --pdf KOTLIN_ANDROID.MD
 ```
 
+- PPTX
+```bash
+ marp --pptx KOTLIN_ANDROID.MD
+ or
+ marp --pptx KOTLIN_ANDROID.MD --theme graph_paper.css --html
+```
+
 ## 🎯 Presentation Content
 
 ### Part 1: Kotlin Fundamentals
