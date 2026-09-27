@@ -1,6 +1,6 @@
 # Ficha UC
 
-## Learning Goals / Aquisição de Competências
+# Learning Goals / Aquisição de Competências
 
 ### Objetivos da Unidade Curricular
 
@@ -14,17 +14,21 @@ This curricular unit aims to provide to students theoretical and practical knowl
 
 -(PT)
 Os alunos que concluam com sucesso esta unidade curricular deverão ser capazes de:
- - Identificar os vários tipos de plataformas móveis, assim como as suas interfaces de desenvolvimento, SDKs e emuladores
- - Compreender e implementar aplicações em Kotlin
- - Compreender o conceito de sistema multitarefa
- - Desenvolver aplicações móveis Android
+
+- Identificar os vários tipos de plataformas móveis, assim como as suas interfaces de desenvolvimento, SDKs e emuladores
+- Compreender e implementar aplicações em Kotlin
+- Compreender o conceito de sistema multitarefa
+- Desenvolver aplicações móveis Android
 
 -(EN)
 The students that complete with success this curricular unit should be able to:
- - Identify the various types of mobile platforms, such as their developer’s interfaces, SDKs and emulators
- - Understand and implement Kotlin applications; 
- - Understand the concept of multitask systems;
- - Develop mobile applications;
+
+- Identify the various types of mobile platforms, such as their developer’s interfaces, SDKs and emulators
+- Understand and implement Kotlin applications; 
+- Understand the concept of multitask systems;
+- Develop mobile applications;
+
+
 
 ### Conteúdos Programáticos
 
@@ -56,8 +60,7 @@ Understanding threads and synchronization
 ### Bibliografia
 
 -(Pricincipal)
-http://kotlinlang.org 
-https://developer.android.com
+[http://kotlinlang.org](http://kotlinlang.org) [https://developer.android.com](https://developer.android.com)
 Pro Android With Kotlin, Peter Spath, ISBN: 9781484238202, 2018, Apress.
 Android Profissional - Desenvolvimento moderno de aplicações, Ricardo Queirós, ISBN: 9789727228744, 2018, FCA.
 -(Complementar)
@@ -73,7 +76,7 @@ O principal foco é aprender a repensar as aplicações em dispositivos móveis 
 Por fim deverá aprender-se com como economizar processamento de dados e memória
 
 -(EN)
-One of the goals of this course is to take advantage of all the concepts acquired in object-oriented programming with C# from previous years and learn how to apply the same concepts in mobile computing. Another goal is identify what types of mobile devices that currently exist in the market and characterize them in terms of operating system and programming platforms, so students can choose the best development tools for each OS.
+One of the goals of this course is to take advantage of all the concepts acquired in object-oriented programming with C# from previous years and learn how to apply the same concepts in mobile computing. Another goal is to identify what types of mobile devices that currently exist in the market and characterize them in terms of operating system and programming platforms, so students can choose the best development tools for each OS.
 Two other main goals of this course are to learn how to make applications for mobile devices for Android. One of the main focus is to learn how to rethink applications on mobile devices when implementing navigation, screen sizes, and understand the life cycle since the application is started until it is finalized and realize the structure of the games. Finally should learn how to save with data processing and memory since these devices are more limited in terms of processor, memory and energy resources compared to desktop computers.
 
 ### Metodologias
@@ -98,6 +101,7 @@ For this reason, assessment is based on the acquisition of skills demonstrated w
 
 -(PT)
 A avaliação tem duas componentes, uma em aula e outra extra-aulas.
+
 - A Aquisição de competências (AC) — é componente em aula, baseada nas competências demonstradas na sala de aula (através pequenos projectos e implementações práticas).
 - O Trabalho prático (TP) — é a componente extra-aulas, realizada em grupo. Inclui relatório escrito, implementação e apresentação da solução.
 
@@ -109,6 +113,7 @@ Ambas as componentes são obrigatórias e têm nota mínima de 9,5 valores
 
 -(EN)
 The assessment consists of two components: one conducted in class and the other outside of class.
+
 - Competency Acquisition (AC) — an in-class component based on competencies demonstrated during class sessions (through small projects and practical implementations).
 - Practical Work (TP) — an out-of-class component carried out in groups. It includes a written report, implementation, and a presentation of the solution.
 
