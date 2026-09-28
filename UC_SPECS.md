@@ -111,6 +111,15 @@ AF = 50% × AC + 50% × TP
 
 Ambas as componentes são obrigatórias e têm nota mínima de 9,5 valores
 
+Época de Exames
+
+A UC deve ser realizada exclusivamente por Avaliação Contínua, não admitindo, portanto, avaliação em épocas de exame.
+
+Época Especial e Época Excepcional
+
+Na Época Especial e Excecional, os estudantes com estatuto especial (assim como todos os estudantes que preencham os requisitos previstos nos n.ºs 5 e 7 do artigo 209.º do Regulamento Académico do IPCA) que não tenham obtido aprovação podem repetir a apresentação/defesa dos trabalhos, eventualmente melhorados, realizados durante a Avaliação Contínua.
+Os alunos com estatuto especial que pretendam realizar a sua avaliação devem contactar o docente, até ao início da época de avaliação. A avaliação da parte prática na Época Especial e Excecional é realizada nos mesmos moldes da avaliação prática realizada na época de avaliação contínua.
+
 -(EN)
 The assessment consists of two components: one conducted in class and the other outside of class.
 
@@ -122,3 +131,12 @@ The final grade (AF) is calculated as follows:
 AF = 50% × AC + 50% × TP
 
 Both components are mandatory, and a minimum grade of 9.5 is required for each.
+
+Exam Period
+
+This course unit is conducted exclusively through continuous assessment; therefore, assessment during standard exam periods is not permitted.
+
+Special and Exceptional Assessment Periods
+
+During the Special and Exceptional assessment periods, students with special status (as well as any students meeting the requirements set out in Article 209, paragraphs 5 and 7, of the IPCA Academic Regulations) who have not passed the course may repeat the presentation/defense of the assignments—potentially in revised form—that were originally completed during the continuous assessment process.
+Students with special status who intend to undergo assessment must contact the instructor prior to the start of the assessment period. The assessment of the practical component during the Special and Exceptional periods follows the same format as the practical assessment conducted during the continuous assessment period.
